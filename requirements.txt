@@ -1,0 +1,5 @@
+tensorflow
+matplotlib
+opencv-python==4.10.0.84
+gradio
+scipy
