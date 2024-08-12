@@ -10,3 +10,4 @@ xception_train1.h5
 xception_train2_5_epocs.h5
 xception_train_entire_dataset.h5
 merged_model.h5
+# quantized_model.tflite
