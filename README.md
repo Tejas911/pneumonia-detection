@@ -24,7 +24,7 @@ Project Root
 └── xception_build_train4.ipynb   # Trains an Xception model on the fourth data subset
 ```
 
-- ADD ACCURACIES
+- ADD ACCURACIES in graphs
 - HOW THE MODELS ARE MERGERD
 - HOW TO USE
 - BEEFITS OF DISTRIBUTED COPUTING AND QUATISATION
