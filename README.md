@@ -1,4 +1,4 @@
-# Implementation of Distributed Computing with Model Quantization for Pneumonia Image Detection.
+# Implementation of Distributed Computing with Model Quantization for Pneumonia Image Detection
 This project implements distributed computing and model quantization for pneumonia image detection. A dataset is split into four subsets, each training a separate Xception model. The models are merged using weighted averaging, prioritizing those with higher accuracy. The final ensemble is quantized to optimize performance for resource-limited environments, with the AUC ROC curve used to address any accuracy loss from quantization.
 
 ## Project Structure
