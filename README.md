@@ -1,7 +1,7 @@
-# Implementation of Distributed Computing with Model Quantization for Pneumonia Image Detection
+# 🚀 Implementation of Distributed Computing with Model Quantization for Pneumonia Image Detection
 This project implements distributed computing and model quantization for pneumonia image detection. A dataset is split into four subsets, each training a separate Xception model. The models are merged using weighted averaging, prioritizing those with higher accuracy. The final ensemble is quantized to optimize performance for resource-limited environments, with the AUC ROC curve used to address any accuracy loss from quantization.
 
-## Key Features
+## ✨Key Features
 
 1. **Distributed Training for Scalability**  
    The dataset is split into four subsets, enabling parallel training of Xception models. This leads to:
@@ -20,7 +20,7 @@ This project implements distributed computing and model quantization for pneumon
 
 
 
-## Project Structure
+## 📁 Project Structure
 Project Root
 ```
 │
@@ -42,14 +42,14 @@ Project Root
 ├── xception_build_train3.ipynb   # Trains an Xception model on the third data subset
 └── xception_build_train4.ipynb   # Trains an Xception model on the fourth data subset
 ```
-## Performance Benchmarks:
+## 📈 Performance Benchmarks:
 Below is a bar graph comparing the accuracy of individual Xception models, the final ensemble quantized model, showcasing the performance improvements achieved through distributed training and model optimization.
 <div align = "center">
   <img src="assets/accuracy_comparison.png" alt="Performance Benchmark" width="700"/>
 </div>
 
 
-## Xception Model Overview:
+## 🏗️ Xception Model Overview:
 
 The Xception model, a deep convolutional neural network, excels in feature extraction for image classification:
 <div align = "center">
@@ -60,6 +60,10 @@ The Xception model, a deep convolutional neural network, excels in feature extra
 - **Depthwise Separable Convolutions:** Reduces computations by separating depthwise and pointwise convolutions.
 - **Entry, Middle, and Exit Flows:** Sequential blocks for effective feature learning.
 - **Efficiency and Performance:** Optimized design for high accuracy with reduced parameters.
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
 - ADD ACCURACIES in graphs
