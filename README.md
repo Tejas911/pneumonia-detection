@@ -23,6 +23,13 @@ Project Root
 ├── xception_build_train3.ipynb   # Trains an Xception model on the third data subset
 └── xception_build_train4.ipynb   # Trains an Xception model on the fourth data subset
 ```
+## Performance Benchmarks:
+Below is a bar graph comparing the accuracy of individual Xception models, the final ensemble quantized model, showcasing the performance improvements achieved through distributed training and model optimization.
+
+![Performance Benchmark](assets/accuracy_comparison.png)
+
+
+
 
 - ADD ACCURACIES in graphs
 - HOW THE MODELS ARE MERGERD
