@@ -17,7 +17,6 @@ Project Root
 ├── appy.py                        # Main Python script for app deployment or model inference
 ├── class_labels.txt               # Lists class labels ("Normal" and "Pneumonia")
 ├── data_split.ipynb               # Splits the dataset into different subsets
-├── eval.png                       # Evaluation plot or image for model performance visualization
 ├── experiments.ipynb              # Contains experiment workflows for model tuning
 ├── merge_quantization.ipynb       # Merges the trained models and handles model quantization
 ├── merged_model.h5                # Merged model in HDF5 format (before quantization)
