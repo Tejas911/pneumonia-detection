@@ -42,28 +42,7 @@ Project Root
 ├── xception_build_train3.ipynb   # Trains an Xception model on the third data subset
 └── xception_build_train4.ipynb   # Trains an Xception model on the fourth data subset
 ```
-## 📈 Performance Benchmarks:
-Below is a bar graph comparing the accuracy of individual Xception models, the final ensemble quantized model, showcasing the performance improvements achieved through distributed training and model optimization.
-<div align = "center">
-  <img src="assets/accuracy_comparison.png" alt="Performance Benchmark" width="700"/>
-</div>
 
-
-## 🏗️ Xception Model Overview:
-
-The Xception model, a deep convolutional neural network, excels in feature extraction for image classification:
-<div align = "center">
-  <img src="assets/Xception-.png" alt="Performance Benchmark" width="800"/>
-</div>
-
-
-- **Depthwise Separable Convolutions:** Reduces computations by separating depthwise and pointwise convolutions.
-- **Entry, Middle, and Exit Flows:** Sequential blocks for effective feature learning.
-- **Efficiency and Performance:** Optimized design for high accuracy with reduced parameters.
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
 - ADD ACCURACIES in graphs
